@@ -1,0 +1,103 @@
+.cuadricula {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-gap: 20px
+}
+.article1 {
+  grid-column: 1;
+  grid-row: 2;
+}
+.article2 {
+  grid-column: 2;
+  grid-row:2 ;
+}
+.article3 {
+  grid-column: 3;
+  grid-row: 2;
+}
+.celda1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+.celda2 {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.celda3 {
+  grid-column: 3;
+  grid-row: 1;
+}
+body {
+  background-image: url('https://i.pinimg.com/originals/93/7f/93/937f93634d64997127af8670b79f1c2b.jpg');background-size: cover;
+}
+.inhumans {
+    width: 450px;
+    height: 500px;
+
+}
+.wanda {
+    width: 450px;
+    height: 500px;
+    
+}
+.dare {
+    width: 400px;
+    height: 500px;
+}
+footer {
+    background-color: #333;
+}
+
+a:link {
+  color:#727272;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color:#e57373;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#f44336;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color:DarkRed;
+  background-color: transparent;
+  text-decoration: underline;
+}
+#right {
+  float: right;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0px
+}
+.topnav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+.topnav a:hover {
+  background-color:#212121;
+} 
+p {
+    color: PapayaWhip;
+    text-align:justify;
+}
+h1 {
+    color:#FF3300;
+} 
+h2 {
+    color:#d32f2f;
+    text-decoration: underline
+}

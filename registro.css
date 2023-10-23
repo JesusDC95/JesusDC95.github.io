@@ -1,0 +1,57 @@
+body {
+  background-image: url('https://i.pinimg.com/originals/93/7f/93/937f93634d64997127af8670b79f1c2b.jpg');background-size: cover;
+}
+
+a:link {
+  color:#727272;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color:#e57373;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#f44336;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color:DarkRed;
+  background-color: transparent;
+  text-decoration: underline;
+}
+p {
+  color: PapayaWhip;
+  text-align:justify;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+.topnav a:hover {
+  background-color:#212121;
+} 
+.form button {
+  padding: 1em 1em;
+  border: none;
+  background: rgb(33, 33, 33);
+  cursor: pointer;
+}
+#right {
+  float: right;
+}
+.imagen {
+  display: block;
+}
